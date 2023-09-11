@@ -1,0 +1,596 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_screen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipToOutline="true"
+    android:background="@drawable/main_login_test">
+
+    <View
+        android:id="@+id/main_screen_logo"
+        android:layout_width="101.25px"
+        android:layout_height="104.37px"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="272px"
+        android:layout_marginTop="53px"
+        android:background="@drawable/mjc_logo" />
+
+    <TextView
+        android:id="@+id/main_title_text"
+        android:layout_width="398.25px"
+        android:layout_height="93.94px"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="151dp"
+        android:layout_marginTop="22dp"
+        android:gravity="center_vertical"
+        android:text="@string/main_title_string"
+        android:textAppearance="@style/main_title_styles"
+        android:textStyle="bold" />
+
+
+
+    //----------------------회원정보----------------------
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/main_top_view"
+        android:layout_width="932px"
+        android:layout_height="222px"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="75px"
+        android:layout_marginTop="266px"
+        android:background="@drawable/main_top_view_background"
+        android:elevation="20dp">
+
+        <View
+            android:id="@+id/view"
+            android:layout_width="67px"
+            android:layout_height="67px"
+            android:layout_marginStart="54px"
+            android:layout_marginTop="26px"
+            android:background="@drawable/main_profile"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/top_info"
+            android:layout_width="350px"
+            android:layout_height="67px"
+            android:layout_marginStart="129px"
+            android:layout_marginTop="26px"
+            android:gravity="bottom"
+            android:text="@string/top_info"
+            android:textAppearance="@style/top_info"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <android.widget.Button
+            android:id="@+id/logout_btn"
+            android:layout_width="326px"
+            android:layout_height="63px"
+            android:layout_marginStart="36dp"
+            android:layout_marginTop="136px"
+            android:background="@drawable/main_top"
+            android:elevation="100dp"
+            android:text="@string/top_logout_btn"
+            android:textAppearance="@style/top_logout_btn"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="TouchTargetSizeCheck"
+            app:backgroundTint="#F6F8FF"/>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    //----------------------공지사항----------------------
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/announcement_view"
+        android:layout_width="932px"
+        android:layout_height="347px"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="75px"
+        android:layout_marginTop="551px"
+        android:background="@drawable/main_top_view_background"
+        android:elevation="20dp">
+
+
+        <Button
+            android:id="@+id/ann_title_btn"
+            android:layout_width="200px"
+            android:layout_height="50px"
+            android:layout_marginStart="55px"
+            android:layout_marginTop="18px"
+            android:background="#00ff0000"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+        <View
+            android:layout_width="51px"
+            android:layout_height="49px"
+            android:layout_marginStart="55px"
+            android:layout_marginTop="22px"
+            android:background="@drawable/main_announcement"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/ann_text"
+            android:layout_width="82dp"
+            android:layout_height="18dp"
+            android:layout_marginStart="109px"
+            android:layout_marginTop="30px"
+            android:gravity="bottom"
+            android:text="공지사항"
+            android:textAppearance="@style/top_passwd_change_btn"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <View
+            android:id="@+id/ann_line1"
+            android:layout_width="837px"
+            android:layout_height="5px"
+            android:layout_marginStart="45px"
+            android:layout_marginTop="76px"
+            android:background="@drawable/broken_line"
+            android:layerType="software"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/ann_first_btn"
+            android:layout_width="871px"
+            android:layout_height="75px"
+            android:layout_marginStart="45px"
+            android:layout_marginTop="77px"
+            android:background="#00ff0000"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+        <TextView
+            android:id="@+id/first_ann"
+            android:layout_width="871px"
+            android:layout_height="75px"
+            android:layout_marginStart="45px"
+            android:layout_marginTop="77px"
+            android:gravity="center_vertical"
+            android:text="[혁신] 2023학년도 1학기 학습역량 진단검사 실시 안내(~5/5)"
+            android:textAppearance="@style/ann_text"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <View
+            android:id="@+id/ann_line12"
+            android:layout_width="837px"
+            android:layout_height="5px"
+            android:layout_marginStart="45px"
+            android:layout_marginTop="150.93px"
+            android:background="@drawable/main_line"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/ann_second_btn"
+            android:layout_width="871px"
+            android:layout_height="75px"
+            android:layout_marginStart="45px"
+            android:layout_marginTop="155px"
+            android:background="#00ff0000"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+        <TextView
+            android:id="@+id/second_ann"
+            android:layout_width="871px"
+            android:layout_height="75px"
+            android:layout_marginStart="45px"
+            android:layout_marginTop="155px"
+            android:gravity="center_vertical"
+            android:text="미래융합학부 사무공간 리모델링으로 인한 사무실 이전 안내"
+            android:textAppearance="@style/ann_text"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <View
+            android:id="@+id/ann_line3"
+            android:layout_width="837px"
+            android:layout_height="5px"
+            android:layout_marginStart="45px"
+            android:layout_marginTop="227.92px"
+            android:background="@drawable/main_line"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/ann_third_btn"
+            android:layout_width="871px"
+            android:layout_height="75px"
+            android:layout_marginStart="45px"
+            android:layout_marginTop="230px"
+            android:background="#00ff0000"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+        <TextView
+            android:id="@+id/third_ann"
+            android:layout_width="871px"
+            android:layout_height="75px"
+            android:layout_marginStart="45px"
+            android:layout_marginTop="230px"
+            android:gravity="center_vertical"
+            android:text="[혁신]2023학년도 학생역량이력관리시스템(Smart Care Syst..."
+            android:textAppearance="@style/ann_text"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <View
+            android:id="@+id/ann_line4"
+            android:layout_width="837px"
+            android:layout_height="5px"
+            android:layout_marginStart="45px"
+            android:layout_marginTop="304.92px"
+            android:background="@drawable/main_line"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    //----------------------학사일정----------------------
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/calendar_view"
+        android:layout_width="932px"
+        android:layout_height="347px"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="74px"
+        android:layout_marginTop="961px"
+        android:background="@drawable/main_top_view_background"
+        android:elevation="20dp">
+
+        <Button
+            android:id="@+id/cal_title_btn"
+            android:layout_width="200px"
+            android:layout_height="50px"
+            android:layout_marginStart="55px"
+            android:layout_marginTop="18px"
+            android:background="#00ff0000"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+        <View
+            android:layout_width="51px"
+            android:layout_height="49px"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/main_calender"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/cal_text"
+            android:layout_width="226px"
+            android:layout_height="33px"
+            android:layout_marginStart="109px"
+            android:layout_marginTop="30px"
+            android:gravity="bottom"
+            android:text="학사일정"
+            android:textAppearance="@style/top_passwd_change_btn"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <View
+            android:id="@+id/cal_line1"
+            android:layout_width="837px"
+            android:layout_height="5px"
+            android:layout_marginStart="45px"
+            android:layout_marginTop="76px"
+            android:background="@drawable/broken_line"
+            android:layerType="software"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/cal_first_btn"
+            android:layout_width="871px"
+            android:layout_height="75px"
+            android:layout_marginStart="45px"
+            android:layout_marginTop="77px"
+            android:background="#00ff0000"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+        <TextView
+            android:id="@+id/first_cal"
+            android:layout_width="871px"
+            android:layout_height="75px"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="28dp"
+            android:gravity="center_vertical"
+            android:text="2023.04.10~2023.04.10  교직원 부활절예배"
+            android:textAppearance="@style/ann_text"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <View
+            android:id="@+id/cal_line2"
+            android:layout_width="837px"
+            android:layout_height="5px"
+            android:layout_marginStart="45px"
+            android:layout_marginTop="150.93px"
+            android:background="@drawable/main_line"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/cal_second_btn"
+            android:layout_width="871px"
+            android:layout_height="75px"
+            android:layout_marginStart="45px"
+            android:layout_marginTop="155px"
+            android:background="#00ff0000"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+        <TextView
+            android:id="@+id/second_cal"
+            android:layout_width="871px"
+            android:layout_height="75px"
+            android:layout_marginStart="45px"
+            android:layout_marginTop="155px"
+            android:gravity="center_vertical"
+            android:text="2023.04.13~2023.04.19  학생 부활절예배"
+            android:textAppearance="@style/ann_text"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <View
+            android:id="@+id/cal_line3"
+            android:layout_width="837px"
+            android:layout_height="5px"
+            android:layout_marginStart="45px"
+            android:layout_marginTop="227.92px"
+            android:background="@drawable/main_line"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/cal_third_btn"
+            android:layout_width="871px"
+            android:layout_height="75px"
+            android:layout_marginStart="45px"
+            android:layout_marginTop="230px"
+            android:background="#00ff0000"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+        <TextView
+            android:id="@+id/third_cal"
+            android:layout_width="871px"
+            android:layout_height="75px"
+            android:layout_marginStart="45px"
+            android:layout_marginTop="230px"
+            android:gravity="center_vertical"
+            android:text="2023.04.13~2023.04.19  중간 강의평가"
+            android:textAppearance="@style/ann_text"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <View
+            android:id="@+id/cal_line4"
+            android:layout_width="837px"
+            android:layout_height="5px"
+            android:layout_marginStart="45px"
+            android:layout_marginTop="304.92px"
+            android:background="@drawable/main_line"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    //----------------------바로가기 아이콘----------------------
+
+
+    <Button
+        android:id="@+id/web_btn"
+        android:layout_width="250px"
+        android:layout_height="304px"
+        android:layout_marginStart="75px"
+        android:layout_marginTop="1371px"
+        android:background="@drawable/main_top"
+        android:drawableTop="@drawable/webicon_info"
+        android:elevation="100dp"
+        android:text="웹사이트"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:backgroundTint="#F6F8FF" />
+
+    <Button
+        android:id="@+id/bus_btn"
+        android:layout_width="250px"
+        android:layout_height="304px"
+        android:layout_marginStart="416px"
+        android:layout_marginTop="1371px"
+        android:background="@drawable/main_top"
+        android:drawableTop="@drawable/busicon_info"
+        android:elevation="100dp"
+        android:text="셔틀버스"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:backgroundTint="#F6F8FF" />
+
+    <Button
+        android:id="@+id/call_btn"
+        android:layout_width="250px"
+        android:layout_height="304px"
+        android:layout_marginStart="757px"
+        android:layout_marginTop="1371px"
+        android:background="@drawable/main_top"
+        android:drawableTop="@drawable/callicon_info"
+        android:elevation="100dp"
+        android:text="교내전화"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:backgroundTint="#F6F8FF" />
+
+
+    //----------------------교내식당----------------------
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/cafeteria_view"
+        android:layout_width="932px"
+        android:layout_height="347px"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="74px"
+        android:layout_marginTop="1730px"
+        android:background="@drawable/main_top_view_background"
+        android:elevation="20dp">
+
+        <View
+            android:layout_width="51px"
+            android:layout_height="49px"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/main_cafeteria"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/caf_text"
+            android:layout_width="226px"
+            android:layout_height="33px"
+            android:layout_marginStart="109px"
+            android:layout_marginTop="30px"
+            android:gravity="bottom"
+            android:text="교내식당"
+            android:textAppearance="@style/top_passwd_change_btn"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/caf_date_text"
+            android:layout_width="80px"
+            android:layout_height="50px"
+            android:layout_marginStart="296dp"
+            android:layout_marginTop="12dp"
+            android:gravity="bottom"
+            android:text="04/06"
+            android:textAppearance="@style/top_passwd_change_btn"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <View
+            android:id="@+id/caf_line1"
+            android:layout_width="837px"
+            android:layout_height="5px"
+            android:layout_marginStart="45px"
+            android:layout_marginTop="76px"
+            android:background="@drawable/broken_line"
+            android:layerType="software"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:layout_width="64px"
+            android:layout_height="44px"
+            android:layout_marginStart="45px"
+            android:layout_marginTop="76px"
+            android:gravity="center_vertical"
+            android:text="[중식]"
+            android:textAppearance="@style/ann_text"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/first_caf"
+            android:layout_width="852px"
+            android:layout_height="60px"
+            android:layout_marginStart="45px"
+            android:layout_marginTop="126px"
+            android:gravity="center_vertical"
+            android:text="버섯수제비매운탕, 백미밥, 간장숯불불고기, 두부파래부침, 단무지부추무침, 배추김치"
+            android:textAppearance="@style/ann_text"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <View
+            android:id="@+id/caf_line2"
+            android:layout_width="837px"
+            android:layout_height="5px"
+            android:layout_marginStart="45px"
+            android:layout_marginTop="188.92px"
+            android:background="@drawable/main_line"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/second_title_caf"
+            android:layout_width="64px"
+            android:layout_height="44px"
+            android:layout_marginStart="45px"
+            android:layout_marginTop="189px"
+            android:gravity="center_vertical"
+            android:text="[석식]"
+            android:textAppearance="@style/ann_text"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/second_caf"
+            android:layout_width="849px"
+            android:layout_height="60px"
+            android:layout_marginStart="45px"
+            android:layout_marginTop="239px"
+            android:gravity="center_vertical"
+            android:text="매콤닭볶음탕, 백미밥, 어묵잡채, 해물완자, 콩자반, 배추김치"
+            android:textAppearance="@style/ann_text"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <View
+            android:id="@+id/caf_line3"
+            android:layout_width="837px"
+            android:layout_height="5px"
+            android:layout_marginStart="45px"
+            android:layout_marginTop="303.92px"
+            android:background="@drawable/main_line"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+</RelativeLayout>

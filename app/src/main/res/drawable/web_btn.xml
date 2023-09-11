@@ -1,0 +1,22 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="#F6F8FF" /> <!-- 배경 색상 -->
+    <corners android:radius="20dp" /> <!-- 버튼의 모서리를 둥글게 처리 -->
+    <padding
+        android:left="10dp"
+        android:top="10dp"
+        android:right="10dp"
+        android:bottom="10dp" /> <!-- 그림자를 위한 안쪽 여백 -->
+
+    <corners android:radius="20dp" /> <!-- 그림자의 모서리를 둥글게 처리 -->
+
+    <stroke
+        android:color="#00000000"
+        android:width="0dp"/>
+
+    <item>
+        <shape>
+            <corners android:radius="20dp" /> <!-- 그림자의 모서리를 둥글게 처리 -->
+            <solid android:color="#00000080" /> <!-- 그림자 색상 -->
+        </shape>
+    </item>
+</shape>

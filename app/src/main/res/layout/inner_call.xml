@@ -1,0 +1,83 @@
+ <RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/some_id"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:clipToOutline="true"
+    android:background="@drawable/main_login_test"
+    >
+  <android.widget.Button
+      android:id="@+id/back_btn_han"
+      android:layout_width="79px"
+      android:layout_height="117px"
+      android:layout_alignParentLeft="true"
+      android:layout_alignParentTop="true"
+      android:layout_marginLeft="36px"
+      android:layout_marginTop="16px"
+      android:background="@drawable/back_logo" />
+    <View
+        android:id="@+id/title_call"
+        android:layout_width="81px"
+        android:layout_height="81px"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="391px"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="34px"
+        android:background="@drawable/call_title_logo"
+        />
+
+     <TextView
+         android:id="@+id/title_call_text"
+         android:layout_width="204px"
+         android:layout_height="66px"
+         android:layout_alignParentLeft="true"
+         android:layout_alignParentTop="true"
+         android:layout_marginLeft="486px"
+         android:layout_marginTop="42px"
+         android:gravity="center_vertical"
+         android:text="교내전화"
+         android:textAppearance="@style/sche_title_s" />
+
+     <View
+         android:id="@+id/dott_linee"
+         android:layout_width="934px"
+         android:layout_height="10px"
+         android:layout_alignParentTop="true"
+         android:layout_centerHorizontal="true"
+         android:layout_marginTop="173px"
+         android:background="@drawable/dot_line"
+         android:elevation="4px" />
+
+     <Spinner
+         android:id="@+id/spin_call"
+         android:layout_width="689px"
+         android:layout_height="72px"
+         android:layout_alignParentLeft="true"
+         android:layout_alignParentTop="true"
+         android:layout_marginLeft="249px"
+         android:layout_marginTop="225px"
+         android:background="@drawable/spin_call_draw"
+         android:elevation="10dp" />
+     <TextView
+         android:id="@+id/call_text_where"
+         android:layout_width="180px"
+         android:layout_height="74px"
+         android:layout_alignParentLeft="true"
+         android:layout_marginLeft="59px"
+         android:layout_alignParentTop="true"
+         android:layout_marginTop="225px"
+         android:text="부서/부속기관"
+         android:textAppearance="@style/date_sche_text"
+         android:gravity="center_vertical"
+         />
+
+     <android.widget.Button
+         android:id="@+id/search_btn_call"
+         android:layout_width="74px"
+         android:layout_height="74px"
+         android:layout_alignParentLeft="true"
+         android:layout_alignParentTop="true"
+         android:layout_marginLeft="950px"
+         android:layout_marginTop="225px"
+         android:background="@drawable/call_s_logo" />
+</RelativeLayout>

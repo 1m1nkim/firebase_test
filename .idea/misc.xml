@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/windo/AndroidStudioProjects/firebase_test/app/src/main/res/drawable-v24/broken_line.xml" value="0.2475" />
+        <entry key="..\:/Users/windo/AndroidStudioProjects/firebase_test/app/src/main/res/drawable-v24/busicon_info.xml" value="0.2475" />
+        <entry key="..\:/Users/windo/AndroidStudioProjects/firebase_test/app/src/main/res/drawable-v24/callicon_info.xml" value="0.2475" />
+        <entry key="..\:/Users/windo/AndroidStudioProjects/firebase_test/app/src/main/res/drawable-v24/checkbox.xml" value="0.2475" />
+        <entry key="..\:/Users/windo/AndroidStudioProjects/firebase_test/app/src/main/res/drawable-v24/dot_line.xml" value="0.2475" />
+        <entry key="..\:/Users/windo/AndroidStudioProjects/firebase_test/app/src/main/res/drawable-v24/edit_id.xml" value="0.2475" />
+        <entry key="..\:/Users/windo/AndroidStudioProjects/firebase_test/app/src/main/res/drawable-v24/line1_1.xml" value="0.2475" />
+        <entry key="..\:/Users/windo/AndroidStudioProjects/firebase_test/app/src/main/res/drawable-v24/login_btn_design.xml" value="0.2475" />
+        <entry key="..\:/Users/windo/AndroidStudioProjects/firebase_test/app/src/main/res/drawable-v24/login_btn_enable.xml" value="0.2475" />
+        <entry key="..\:/Users/windo/AndroidStudioProjects/firebase_test/app/src/main/res/drawable-v24/main_line.xml" value="0.2475" />
+        <entry key="..\:/Users/windo/AndroidStudioProjects/firebase_test/app/src/main/res/drawable-v24/main_login_test.xml" value="0.2475" />
+        <entry key="..\:/Users/windo/AndroidStudioProjects/firebase_test/app/src/main/res/drawable-v24/main_top.xml" value="0.2475" />
+        <entry key="..\:/Users/windo/AndroidStudioProjects/firebase_test/app/src/main/res/drawable-v24/main_top_view_background.xml" value="0.2475" />
+        <entry key="..\:/Users/windo/AndroidStudioProjects/firebase_test/app/src/main/res/drawable-v24/membership.xml" value="0.2475" />
+        <entry key="..\:/Users/windo/AndroidStudioProjects/firebase_test/app/src/main/res/drawable-v24/midlinee.xml" value="0.2475" />
+        <entry key="..\:/Users/windo/AndroidStudioProjects/firebase_test/app/src/main/res/drawable-v24/spin_call_draw.xml" value="0.2475" />
+        <entry key="..\:/Users/windo/AndroidStudioProjects/firebase_test/app/src/main/res/drawable-v24/web_btn.xml" value="0.178" />
+        <entry key="..\:/Users/windo/AndroidStudioProjects/firebase_test/app/src/main/res/drawable-v24/webicon_info.xml" value="0.2475" />
+        <entry key="..\:/Users/windo/AndroidStudioProjects/firebase_test/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2475" />
+        <entry key="..\:/Users/windo/AndroidStudioProjects/firebase_test/app/src/main/res/drawable/loadingdraw.xml" value="0.1925" />
+        <entry key="..\:/Users/windo/AndroidStudioProjects/firebase_test/app/src/main/res/drawable/notice_btn.xml" value="0.206" />
+        <entry key="..\:/Users/windo/AndroidStudioProjects/firebase_test/app/src/main/res/drawable/notice_info_line.xml" value="0.206" />
+        <entry key="..\:/Users/windo/AndroidStudioProjects/firebase_test/app/src/main/res/drawable/notice_info_main.xml" value="0.206" />
+        <entry key="..\:/Users/windo/AndroidStudioProjects/firebase_test/app/src/main/res/drawable/notice_info_tbline.xml" value="0.206" />
+        <entry key="..\:/Users/windo/AndroidStudioProjects/firebase_test/app/src/main/res/drawable/searchicon.xml" value="0.198" />
+        <entry key="..\:/Users/windo/AndroidStudioProjects/firebase_test/app/src/main/res/drawable/web_btn.xml" value="0.19" />
+        <entry key="..\:/Users/windo/AndroidStudioProjects/firebase_test/app/src/main/res/layout/activity_main.xml" value="0.536" />
+        <entry key="..\:/Users/windo/AndroidStudioProjects/firebase_test/app/src/main/res/layout/activity_main_screen.xml" value="0.4" />
+        <entry key="..\:/Users/windo/AndroidStudioProjects/firebase_test/app/src/main/res/layout/activity_notice.xml" value="0.23832923832923833" />
+        <entry key="..\:/Users/windo/AndroidStudioProjects/firebase_test/app/src/main/res/layout/change_pass_good.xml" value="0.21467391304347827" />
+        <entry key="..\:/Users/windo/AndroidStudioProjects/firebase_test/app/src/main/res/layout/find_pass_good.xml" value="0.21467391304347827" />
+        <entry key="..\:/Users/windo/AndroidStudioProjects/firebase_test/app/src/main/res/layout/findnum_bad.xml" value="0.14628623188405798" />
+        <entry key="..\:/Users/windo/AndroidStudioProjects/firebase_test/app/src/main/res/layout/findnum_good.xml" value="0.21467391304347827" />
+        <entry key="..\:/Users/windo/AndroidStudioProjects/firebase_test/app/src/main/res/layout/findnumber.xml" value="0.2578947368421053" />
+        <entry key="..\:/Users/windo/AndroidStudioProjects/firebase_test/app/src/main/res/layout/findpass.xml" value="0.536" />
+        <entry key="..\:/Users/windo/AndroidStudioProjects/firebase_test/app/src/main/res/layout/inner_call.xml" value="0.72" />
+        <entry key="..\:/Users/windo/AndroidStudioProjects/firebase_test/app/src/main/res/layout/main_change_password.xml" value="0.15789473684210525" />
+        <entry key="..\:/Users/windo/AndroidStudioProjects/firebase_test/app/src/main/res/layout/main_loading.xml" value="0.176" />
+        <entry key="..\:/Users/windo/AndroidStudioProjects/firebase_test/app/src/main/res/layout/notice_info.xml" value="0.2" />
+        <entry key="..\:/Users/windo/AndroidStudioProjects/firebase_test/app/src/main/res/layout/notice_info2.xml" value="0.2578947368421053" />
+        <entry key="..\:/Users/windo/AndroidStudioProjects/firebase_test/app/src/main/res/layout/notice_info_normal.xml" value="0.25526315789473686" />
+        <entry key="..\:/Users/windo/AndroidStudioProjects/firebase_test/app/src/main/res/layout/notice_info_normal2.xml" value="0.2578947368421053" />
+        <entry key="..\:/Users/windo/AndroidStudioProjects/firebase_test/app/src/main/res/layout/notsamepass.xml" value="0.15789473684210525" />
+        <entry key="..\:/Users/windo/AndroidStudioProjects/firebase_test/app/src/main/res/layout/schedule_one.xml" value="0.264" />
+        <entry key="..\:/Users/windo/AndroidStudioProjects/firebase_test/app/src/main/res/layout/shuttle_bus.xml" value="0.264" />
+        <entry key="..\:/Users/windo/AndroidStudioProjects/firebase_test/app/src/main/res/layout/spinner_dropdown_layout.xml" value="0.12467866323907455" />
+        <entry key="..\:/Users/windo/AndroidStudioProjects/firebase_test/app/src/main/res/layout/web1_mjc.xml" value="0.21447368421052632" />
+        <entry key="..\:/Users/windo/AndroidStudioProjects/firebase_test/app/src/main/res/layout/web7_professor.xml" value="0.1036846615252785" />
+        <entry key="..\:/Users/windo/AndroidStudioProjects/firebase_test/app/src/main/res/layout/web8_student.xml" value="0.25526315789473686" />
+        <entry key="..\:/Users/windo/AndroidStudioProjects/firebase_test/app/src/main/res/layout/web_btn.xml" value="0.14649122807017545" />
+        <entry key="..\:/Users/windo/AndroidStudioProjects/firebase_test/app/src/main/res/layout/web_eclass.xml" value="0.264" />
+        <entry key="..\:/Users/windo/AndroidStudioProjects/firebase_test/app/src/main/res/layout/web_mjc.xml" value="0.264" />
+        <entry key="..\:/Users/windo/AndroidStudioProjects/firebase_test/app/src/main/res/layout/web_site.xml" value="0.1" />
+        <entry key="..\:/Users/windo/AndroidStudioProjects/firebase_test/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.153" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
